@@ -28,13 +28,8 @@ class Home extends MY_Controller {
 	}
 
 	private function file_list($d, $x) {
-		foreach (array_diff(scandir($d), array('.', '..')) as $f) {
-			if (is_file($d . '/' . $f) && (($x) ? preg_match($x . '$', $f) : 1)) {
-				$l[] = $f;
-			}
-		}
+		return glob($d . '/*' . $x);
 
-		return $l;
 	}
 	private function adminCheck() {
 		if (!isAdmin()) {
