@@ -1,0 +1,12 @@
+SELECT * FROM (`sources`) WHERE `SourceID` = '1'
+
+
+UPDATE sources SET MetadataID='1' WHERE `SourceID` = '1';
+
+
+ALTER TABLE seriescatalog ADD SiteType VARCHAR(255) NOT NULL DEFAULT 'Unknown';
+ALTER TABLE seriescatalog ADD CONSTRAINT fk_site_type_cv FOREIGN KEY (SiteType) REFERENCES sitetypecv(term);
+
+ALTER TABLE seriescatalog DROP COLUMN SiteType;
+
+SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'seriescatalog' AND COLUMN_NAME = 'SiteType';
