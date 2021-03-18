@@ -3,7 +3,7 @@ class Language extends CI_Model {
 
 	function __construct() {
 
-		$mysqlserver   = "128.187.106.131";
+		$mysqlserver   = "localhost";
 		$mysqlusername = "langreader";
 		$mysqlpassword = "readHSLlang@9";
 		$this->DB1     = @mysqli_connect($mysqlserver, $mysqlusername, $mysqlpassword);
