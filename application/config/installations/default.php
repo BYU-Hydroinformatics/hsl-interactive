@@ -16,16 +16,16 @@
     */
     $config['database_host']    = 'localhost';
     $config['database_username']    = 'WWO_Admin';
-    $config['database_name']    = 'sandbox';
+    $config['database_name']    = 'dr';
     $config['database_password']    = 'isaiah4118';
     /*
     |--------------------------------------------------------------------------
     | Default Variables for Adding Site Controller
     |--------------------------------------------------------------------------
     */
-    $config['default_datum']    = 'Unknown';
-    $config['default_spatial']  = 'Unknown';
-    $config['default_source']   = 'Sandbox Installation';
+    $config['default_datum']    = 'MSL';
+    $config['default_spatial']  = 'NAD83';
+    $config['default_source']   = 'DR';
     $config['LocalX']   = 'NULL';
     $config['LocalY']   = 'NULL';
     $config['LocalProjectionID']    = 'NULL';
@@ -49,7 +49,7 @@
     | Default Variables for Adding Variable
     |--------------------------------------------------------------------------
     */
-    $config['default_varcode']  = 'WWO';
+    $config['default_varcode']  = 'DR';
     $config['time_support'] = '0';
     /*
     |--------------------------------------------------------------------------
@@ -62,16 +62,16 @@
     | Configuration for Names and home links
     |--------------------------------------------------------------------------
     */
-    $config['homename'] = 'WorldWater'; //Name of your blog/Website homepage.
-    $config['homelink'] = 'http://worldwater.byu.edu';//Link of your blog/Website homepage
-    $config['orgname']  = 'Sandbox Installation'; //Name of your organization
+    $config['homename'] = 'INDRHI'; //Name of your blog/Website homepage.
+    $config['homelink'] = 'http://www.indrhi.gob.do/';//Link of your blog/Website homepage
+    $config['orgname']  = 'INDRHI (Dominican Republic)'; //Name of your organization
     $config['HSLversion']   = '3.0'; //Name of your software version
     /*
     |--------------------------------------------------------------------------
     | Default Language Settings
     |--------------------------------------------------------------------------
     */
-    $config['lang'] = 'English';
+    $config['lang'] = 'Spanish';
     /*
     |--------------------------------------------------------------------------
     | WaterOneFlow Services Settings
@@ -81,11 +81,5 @@
     $config['auth_token'] = '';
     $config['service_code'] = 'default';
     $config['odm_service'] = 'http://his.cuahsi.org/ODMCV_1_1/ODMCV_1_1.asmx?wsdl';
-    /*
-    |--------------------------------------------------------------------------
-    | Enterprise Settings
-    |--------------------------------------------------------------------------
-    */
-    $config['multiInstall'] = true;
     /* End of file default.php */
     /* Location: ./application/config/installations/default.php */
