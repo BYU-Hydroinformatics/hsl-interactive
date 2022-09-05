@@ -15,9 +15,9 @@
     |--------------------------------------------------------------------------
     */
     $config['database_host']    = 'localhost';
-    $config['database_username']    = 'WWO_Admin';
-    $config['database_name']    = 'dr';
-    $config['database_password']    = 'isaiah4118';
+    $config['database_username']    = 'YOUR_DATABASE_USER_NAME';
+    $config['database_name']    = 'YOUR_MYSQL_DATABASE_NAME';
+    $config['database_password']    = 'YOUR_MYSQL_DATABASE_PASSWORD';
     /*
     |--------------------------------------------------------------------------
     | Default Variables for Adding Site Controller
