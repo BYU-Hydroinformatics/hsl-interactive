@@ -81,5 +81,17 @@
     $config['auth_token'] = '';
     $config['service_code'] = 'default';
     $config['odm_service'] = 'http://his.cuahsi.org/ODMCV_1_1/ODMCV_1_1.asmx?wsdl';
+    /*
+    |--------------------------------------------------------------------------
+    | Enterprise Settings
+    |--------------------------------------------------------------------------
+    */
+    $config['multiInstall'] = true;
+     /*
+    |--------------------------------------------------------------------------
+    | Header Settings
+    |--------------------------------------------------------------------------
+    */
+    $config['headerPath'] = "";
     /* End of file default.php */
     /* Location: ./application/config/installations/default.php */
